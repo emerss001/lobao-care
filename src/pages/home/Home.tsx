@@ -1,4 +1,7 @@
+import About from "../../ui/about";
+import Footer from "../../ui/components/footer";
 import Informations from "../../ui/components/informations";
+import Contatc from "../../ui/contact";
 import Location from "../../ui/location";
 import Navbar from "../../ui/navbar";
 
@@ -31,7 +34,10 @@ function App() {
                 </div>
 
                 <Location />
+                <About />
+                <Contatc />
             </main>
+            <Footer />
         </>
     );
 }
