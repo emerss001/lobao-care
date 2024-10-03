@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: DmSans;
+    src: url("./assets/fonts/dmvariantes.ttf");
+}
+
+:root {
+    --background-color: #f7f9f9;
+    --verde-footer: #00856f;
+    --verde-principal: #84ae61;
+    --cor-de-texto: #ffffff;
+    --cor-texto-p: #495057;
+    --verde-card: #d2e0c7;
+}
+
+body {
+    font-family: DmSans;
+    background-color: var(--background-color);
+}
