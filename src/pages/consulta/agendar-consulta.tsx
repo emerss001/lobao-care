@@ -17,7 +17,7 @@ const AgendarConsulta = () => {
                         <input
                             type="text"
                             name=""
-                            className="w-full h-14 rounded-2xl text-2xl px-4 placeholder:font-semibold placeholder:text-xl"
+                            className="w-full h-14 rounded-2xl text-2xl px-4 placeholder:font-semibold placeholder:text-xl border-2 border-transparent focus:border-[var(--verde-footer)] focus:outline-none"
                             placeholder="Jhon Caster"
                         />
                     </div>
